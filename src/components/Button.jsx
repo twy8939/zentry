@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 const Button = ({ title, id, leftIcon, rightIcon, containerClass }) => {
   return (
     <button
@@ -14,14 +12,6 @@ const Button = ({ title, id, leftIcon, rightIcon, containerClass }) => {
       {rightIcon}
     </button>
   );
-};
-
-Button.propTypes = {
-  title: PropTypes.string,
-  id: PropTypes.string,
-  leftIcon: PropTypes.element,
-  rightIcon: PropTypes.element,
-  containerClass: PropTypes.string,
 };
 
 export default Button;
