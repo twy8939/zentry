@@ -80,7 +80,7 @@ const Features = () => {
             src="videos/feature-1.mp4"
             title={
               <>
-                radi<b>n</b>t
+                radiA<b>n</b>t
               </>
             }
             description="The game of games transforming your in-game actions across Web2 &amp; Web3 titles into a rewarding adventure."
